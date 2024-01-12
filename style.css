@@ -1,2 +1,20 @@
+:root {
+    --orange-clr: hsl(25, 97%, 53%);
+
+    --white-clr-100: hsl(0, 0%, 100%);
+    --gray-clr-200: hsl(217, 12%, 63%);
+    --gray-clr-300: hsl(216, 12%, 54%);
+    --blue-clr-400: hsl(213, 19%, 18%);
+    --blue-clr-800: hsl(216, 12%, 8%);
+
+    --fs-para: 0.9375rem;
+    --fs-title: 1.0625rem;
+    
+    --ff-default: 'Overpass', sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

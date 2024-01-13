@@ -81,21 +81,27 @@
     background: linear-gradient(0deg, rgb(24, 28, 32) 0%, rgb(33, 41, 51) 67%);
 
     margin-inline: 1.5rem;
+    margin-bottom: 10px;
     padding: 1.5rem;
     border-radius: 0.8rem;
     max-width: 360px;
   }
 
+  @media (min-width: 600px) {
+    .container {
+      border-radius: 1.5rem;
+    }
+  }
+
   .bubble {
     background-color: var(--blue-clr-400);
-    width: 2.5rem;
+    width: 3rem;
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     font-size: 13px;
-    padding-top: 5px;
   }
 
   .flex-group {
@@ -109,10 +115,17 @@
     width: 15px;
   }
 
+
   h1 {
     color: var(--white-clr-100);
     font-size: var(--fs-title);
     padding: 0.8rem 0 0.57rem;
+  }
+
+  @media (min-width: 600px) {
+    h1 {
+      padding-top: 1.6rem;
+    }
   }
 
   .container > p {
@@ -129,12 +142,27 @@
     font-weight: var(--fw-bold);
     border: none;
     border-radius: 100vw;
-    padding: 0.8rem;
+    padding: 0.6rem;
     margin: 8px 0;
 
     display: block;
     width: 100%;
     text-align: center;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: var(--white-clr-100);
+    color: var(--orange-clr);
+  }
+
+  .flex-group > .bubble {
+    padding-top: 4px;
+  }
+
+  .flex-group > .bubble:hover {
+    background-color: var(--gray-clr-200);
+    color: var(--white-clr-100);
   }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

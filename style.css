@@ -104,6 +104,11 @@
     font-size: 13px;
   }
 
+  .toggle {
+    background-color: var(--orange-clr);
+    color: white;
+  }
+
   .flex-group {
     display: flex;
     justify-content: space-between;
@@ -148,13 +153,16 @@
     display: block;
     width: 100%;
     text-align: center;
+    cursor: pointer;
   }
 
+  /*
   button:hover {
     cursor: pointer;
     background-color: var(--white-clr-100);
     color: var(--orange-clr);
   }
+  */
 
   .flex-group > .bubble {
     padding-top: 4px;
@@ -164,5 +172,6 @@
     background-color: var(--gray-clr-200);
     color: var(--white-clr-100);
   }
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

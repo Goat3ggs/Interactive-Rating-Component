@@ -156,6 +156,15 @@
     cursor: pointer;
   }
 
+  .rating {
+    cursor: pointer;
+  }
+
+  .active-btn {
+    color: var(--white-clr-100);
+    background-color: var(--orange-clr);
+  }
+
   /*
   button:hover {
     cursor: pointer;
